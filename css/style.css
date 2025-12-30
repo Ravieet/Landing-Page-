@@ -1,3 +1,63 @@
 body {
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
 }
+.section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.fix-width{
+    max-width: 1200px;
+    padding: 20px 20px 40px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+button {
+    background-color: #3882F6;
+    padding: 10px 40px;
+    color: #F9FAF8;
+    font-size: 18px;}
+
+
+
+/* Section 1 */
+
+
+.section-one{
+    background-color:#1f2937 ;
+
+}
+
+.content-text h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+.links a, .content-text p{
+    font-size: 18px;
+    color: #ccced2;
+}
+.links .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-right: auto;
+}
+.links{
+    display: flex;
+    gap: 20px;
+}
+.content{
+    display: flex;
+    gap: 20px;
+}
+.section-one .fix-width .content
+{
+    padding: 80px 0px;
+}
+ 
