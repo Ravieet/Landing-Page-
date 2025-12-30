@@ -3,6 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0px;
  
 }
 .section{
@@ -81,3 +82,5 @@ button {
     font-size: 18px;
     color: #858589;
 }
+
+/* Section 3 */
