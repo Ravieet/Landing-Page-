@@ -64,3 +64,19 @@ button {
 
 /* Section 2 */
 
+.section-two .fix-width h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color:#1f2937;
+}
+.item-container{
+    display: flex;
+    text-align: center;
+    gap: 20px;
+}
+.item{
+    width:210px;
+    font-size: 18px;
+    color: #858589;
+}
