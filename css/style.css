@@ -13,7 +13,7 @@ body {
 }
 .fix-width{
     width: 1200px;
-    padding: 20px 20px 40px 20px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -23,8 +23,9 @@ button {
     background-color: #3882F6;
     padding: 10px 40px;
     color: #F9FAF8;
-    font-size: 18px;}
-
+    font-size: 18px;
+    border-radius: 5px;
+}
 
 
 /* Section 1 */
@@ -104,5 +105,30 @@ button {
     text-align: right;
     font-size: 24px;
     font-weight: 700;
+
+}
+
+/* Section 4 */
+.section-four{
+    padding: 80px 0px;
+}
+.section-four .fix-width {
+    background-color: #3882F6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.section-four .fix-width .content-text p{
+    color:#ccced2;
+}
+.section-four .fix-width .content-text h3{
+    color:#E5E7EB;
+    font-size: 24px;
+    font-weight: 700;
+}
+.section-four .fix-width button{
+
+    border-color: #F9FAF8;
 
 }
