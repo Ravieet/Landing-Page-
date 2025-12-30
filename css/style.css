@@ -11,11 +11,11 @@ body {
     justify-content: center;
 }
 .fix-width{
-    max-width: 1200px;
+    width: 1200px;
     padding: 20px 20px 40px 20px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
 }
 
 button {
@@ -73,6 +73,7 @@ button {
 .item-container{
     display: flex;
     text-align: center;
+    justify-content: space-evenly;
     gap: 20px;
 }
 .item{
