@@ -14,7 +14,6 @@ body {
 }
 .fix-width{
     width: 1200px;
-    /* padding: 20px; */
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -119,6 +118,7 @@ button {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    padding: 20px;
 }
 .section-four .fix-width .content-text p{
     color:#ccced2;
