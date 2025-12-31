@@ -85,6 +85,14 @@ button {
     width:210px;
     font-size: 18px;
     color: #858589;
+    
+
+}
+.item img{
+    border-radius: 5px;
+    border-color: #3882F6;
+    border-style: solid;
+    border-width: 7px;
 }
 
 /* Section 3 */
